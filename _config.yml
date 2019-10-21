@@ -90,4 +90,5 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
+  repo: git@github.com:KamisamaJin/KamisamaJin.github.io.git
   branch: master
