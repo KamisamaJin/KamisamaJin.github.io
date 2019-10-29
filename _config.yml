@@ -3,13 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
+title: 胡笑语的世界
+subtitle: 聊聊技术，聊聊生活
 description:
 keywords:
-author: John Doe
-language: en
+author: 胡笑语
+language: zh-CN
 timezone:
+type: （tags,link,categories這三個頁面需要配置）
+comments: (是否需要顯示評論，默認true)
+top_img: (設置頂部圖)
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -84,7 +87,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: anatole
+theme: Butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -92,9 +95,3 @@ deploy:
   type: git
   repo: git@github.com:KamisamaJin/KamisamaJin.github.io.git
   branch: master
-
-archive_generator:
-  per_page: 0  
-  yearly: false
-  monthly: false
-  daily: false
